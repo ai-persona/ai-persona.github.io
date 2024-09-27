@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP);
+@import url(https://fonts.googleapis.com/css2?family=Cabin:wght@500);
+
+h1,
+h2,
+h3{
+  /*font-family: "UD新ゴ M", "UD Shin Go Medium", serif;*/
+	font-weight: 700;
+}
+
+/* Common
+   ========================================================================== */
+
+#site_content{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+[class^=btn-] {
+	font-family: "UD新ゴ M", "UD Shin Go Medium", serif;
+}
+
+
+/* Header
+   ========================================================================== */
+
+#site_header .site_head .site_title .title{
+	font-family: "見出ミンMA31", "Midashi Min MA31", serif;
+  font-weight:700;
+}
+#site_header .site_head .site_title .subtitle{
+	font-family: "Cabin", serif;
+}
+
+#site_navi_main div > ul > li{
+	font-family: "UD新ゴ M", "UD Shin Go Medium", serif;
+	font-weight: bold;
+}
+
+/* Contents(Top)
+   ========================================================================== */
+
+
+/* Contents(Sub)
+   ========================================================================== */
+
+
+/* Contents(Common)
+   ========================================================================== */
+
+#site_content #main .plain_content .content_main .style_button_wide a{
+	font-family: "UD新ゴ M", "UD Shin Go Medium", serif;
+}
+
+#site_content #main .form_content .content_main .style_form_title{
+	font-weight: bold;
+}
+#site_content #main .form_content .content_main .style_form_button input{
+	font-family: "UD新ゴ M", "UD Shin Go Medium", serif;
+}
+
+
+
+#site_map dl > dd a:before{
+	content:"－";
+}
